@@ -15,7 +15,7 @@ var config = {
         }
     },
     compliments: {
-        interval: 3000,
+        interval: 30000,
         fadeInterval: 4000,
         morning: [
             'Good morning, handsome!',
@@ -37,7 +37,7 @@ var config = {
             'Wow, you look hot!',
             'You look nice!',
             'Hi, sexy!',
-            'Ничего себе, какой классный!',
+            'Ты классный!)',
             'Ты хорошо выглядишь!',
             'Привет, секси!'
         ]
@@ -49,7 +49,6 @@ var config = {
     },
     news: {
         //feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
-        feed: 'https://news.yandex.ru/hardware.rss',
-        feed: 'https://news.yandex.ru/index.rss'
+        feed: 'https://news.yandex.ru/hardware.rss'
     }
 }
