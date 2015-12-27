@@ -1,6 +1,6 @@
 var weather = {
 	// Default language is Dutch because that is what the original author used
-	lang: config.lang || 'nl',
+	lang: config.lang || 'ru',
 	params: config.weather.params || null,
 	iconTable: {
 		'01d':'wi-day-sunny',

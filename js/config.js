@@ -1,5 +1,5 @@
 var config = {
-    lang: 'nl',
+    lang: 'ru',
     time: {
         timeFormat: 12
     },
@@ -7,35 +7,45 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
+            q: 'Saint Petersburg,Russia',
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'ru',
+            APPID: '2e21b84bc020789792c76eee511d575e'
         }
     },
     compliments: {
-        interval: 30000,
+        interval: 3000,
         fadeInterval: 4000,
         morning: [
             'Good morning, handsome!',
             'Enjoy your day!',
-            'How was your sleep?'
+            'How was your sleep?',
+            'Доброе утро, красавчик!',
+            'Удачного дня!',
+            'Как спалось?'
         ],
         afternoon: [
             'Hello, beauty!',
             'You look sexy!',
-            'Looking good today!'
+            'Looking good today!',
+            'Привет, молодец!',
+            'Ты отлично выглядешь!',
+            'Всего хорошего сегодня!'
         ],
         evening: [
             'Wow, you look hot!',
             'You look nice!',
-            'Hi, sexy!'
+            'Hi, sexy!',
+            'Ничего себе, вы посмотрите горячий!',
+            'Ты хорошо выглядишь!',
+            'Привет, сексуальный!'
         ]
     },
     calendar: {
-        maximumEntries: 10,
-        url: "https://p01-calendarws.icloud.com/ca/subscribe/1/n6x7Farxpt7m9S8bHg1TGArSj7J6kanm_2KEoJPL5YIAk3y70FpRo4GyWwO-6QfHSY5mXtHcRGVxYZUf7U3HPDOTG5x0qYnno1Zr_VuKH2M"
+        maximumEntries: 6,
+        url: "https://calendar.google.com/calendar/ical/poohpunx%40gmail.com/private-dc3e4d4746425ea08ab7f454f72465c9/basic.ics",
+        url: "https://calendar.google.com/calendar/ical/ru.russian%23holiday%40group.v.calendar.google.com/public/basic.ics"
     },
     news: {
         feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
