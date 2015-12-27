@@ -21,25 +21,25 @@ var config = {
             'Good morning, handsome!',
             'Enjoy your day!',
             'How was your sleep?',
-            'Доброе утро, красавчик!',
-            'Удачного дня!',
-            'Как спалось?'
+            'Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ, РєСЂР°СЃР°РІС‡РёРє!',
+            'РЈРґР°С‡РЅРѕРіРѕ РґРЅСЏ!',
+            'РљР°Рє СЃРїР°Р»РѕСЃСЊ?'
         ],
         afternoon: [
             'Hello, beauty!',
             'You look sexy!',
             'Looking good today!',
-            'Привет, молодец!',
-            'Ты отлично выглядешь!',
-            'Всего хорошего сегодня!'
+            'РџСЂРёРІРµС‚, РјРѕР»РѕРґРµС†!',
+            'РўС‹ РѕС‚Р»РёС‡РЅРѕ РІС‹РіР»СЏРґРµС€СЊ!',
+            'Р’СЃРµРіРѕ С…РѕСЂРѕС€РµРіРѕ СЃРµРіРѕРґРЅСЏ!'
         ],
         evening: [
             'Wow, you look hot!',
             'You look nice!',
             'Hi, sexy!',
-            'Ничего себе, вы посмотрите горячий!',
-            'Ты хорошо выглядишь!',
-            'Привет, сексуальный!'
+            'РќРёС‡РµРіРѕ СЃРµР±Рµ, РєР°РєРѕР№ РєР»Р°СЃСЃРЅС‹Р№!',
+            'РўС‹ С…РѕСЂРѕС€Рѕ РІС‹РіР»СЏРґРёС€СЊ!',
+            'РџСЂРёРІРµС‚, СЃРµРєСЃРё!'
         ]
     },
     calendar: {
@@ -48,6 +48,8 @@ var config = {
         url: "https://calendar.google.com/calendar/ical/ru.russian%23holiday%40group.v.calendar.google.com/public/basic.ics"
     },
     news: {
-        feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        //feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        feed: 'https://news.yandex.ru/hardware.rss',
+        feed: 'https://news.yandex.ru/index.rss'
     }
 }
